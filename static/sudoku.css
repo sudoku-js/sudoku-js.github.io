@@ -186,6 +186,64 @@
         background-color: rgb(170, 127, 73);
         border: 4px solid;
         width: 384px;
+        height: 360px;
+        border-radius: 3px;
+        border-color: rgb(117, 76, 13);
+        display: grid;
+        position: relative;
+        left: 160px;
+        top: 100px;
+    }
+    .box-1 {
+        border: 2px solid;
+        width: 126px;
+        margin: -1px;
+        position: relative;
+        left: 1px;
+    }
+    .box-2 {
+        border: 2px solid;
+        position: relative;
+        left: 129px;
+        bottom: 360px;
+        width: 126px;
+        margin: -1px;
+    }
+    .box-3 {
+        border: 2px solid;
+        position: relative;
+        left: 257px;
+        bottom: 720px;
+        width: 126px;
+        margin: -1px;
+    }
+    #commands {
+        position: relative;
+        bottom: 120px;
+    }
+    .nav {
+        position: relative;
+        left: 30px
+    }
+    #choice {
+        position: relative;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-height: 704px) {
+    .modal {
+        position: relative;
+        border-radius: 10px;
+        left: 502px;
+        width: 500px;
+        background-color: rgb(118, 169, 226);
+        text-align: center;
+    }
+    #container {
+        background-color: rgb(170, 127, 73);
+        border: 4px solid;
+        width: 384px;
         height: 350px;
         border-radius: 3px;
         border-color: rgb(117, 76, 13);
