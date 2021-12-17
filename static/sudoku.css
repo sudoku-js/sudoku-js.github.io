@@ -173,7 +173,7 @@
     }
 }
 
-@media screen and (max-height: 704px) {
+@media screen and (max-width: 704px) {
     .modal {
         position: relative;
         border-radius: 10px;
