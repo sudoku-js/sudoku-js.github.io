@@ -45,3 +45,23 @@ button:hover {
     margin: 10%;
     left: 275px;
 }
+
+@media screen and (max-width: 686px) {
+    #leveling button {
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-bottom: -100;
+        position: relative;
+        font-size: 142%;
+        left: 140px;
+    }
+}
+
+@media screen and (max-width: 686px) {
+    #playBack button {
+        font-size: 205%;
+        position: relative;
+        margin: 10%;
+        left: 135px;
+    }
+}
