@@ -1,0 +1,107 @@
+body {
+    background: url(/img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Maiandra GD', sans-serif;
+}
+
+
+/* Repsonsive rules*/
+
+#welcome #homeHeader {
+    font-size: 10vw;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    transition: 0.3s;
+    color: rgb(80, 80, 70);
+}
+
+#welcome:hover {
+    cursor: default;
+    font-size: 10vw;
+    color: rgb(238, 212, 129);
+}
+
+
+/* Responsive rules */
+
+@media screen and (max-width: 686px) {
+    #welcome #homeHeader {
+        position: relative;
+        text-align: center;
+        font-size: 10vw;
+        top: 150px;
+        transition: 0.3s;
+        color: rgb(253, 242, 142);
+    }
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 5vw;
+    border: 3px solid;
+    border-radius: 17%;
+    margin: 45px;
+    width: auto;
+    color: rgb(238, 212, 129);
+    transition: 0.3s;
+    box-shadow: 3px 4px rgb(133, 138, 107);
+}
+
+.nav:hover {
+    color: rgb(80, 80, 70);
+    transition: 0.3s;
+    box-shadow: 3px 4px rgb(0, 0, 0);
+}
+
+
+/* Responsive rules */
+
+@media screen and (max-width: 820px) {
+    .nav {
+        text-decoration: none;
+        font-size: 5vw;
+        position: relative;
+        right: 50px;
+        border: 3px solid;
+        border-radius: 17%;
+        color: rgb(238, 212, 129);
+        box-shadow: 3px 4px rgb(133, 138, 107);
+    }
+}
+
+@media screen and (max-width: 686px) {
+    .nav {
+        text-decoration: none;
+        font-size: 5vw;
+        position: relative;
+        right: 0px;
+        border: 3px solid;
+        border-radius: 17%;
+        margin: 20px;
+        width: auto;
+        color: rgb(238, 212, 129);
+        box-shadow: 3px 4px rgb(133, 138, 107);
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .nav {
+        text-decoration: none;
+        font-size: 5vw;
+        position: relative;
+        right: 22px;
+        border: 3px solid;
+        border-radius: 17%;
+        color: rgb(238, 212, 129);
+        box-shadow: 3px 4px rgb(133, 138, 107);
+    }
+}
+
+#navigation {
+    position: absolute;
+    top: 550px;
+    left: 19vw;
+}

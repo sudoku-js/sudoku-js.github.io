@@ -1,0 +1,47 @@
+#level h1 {
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    transition: 0.3s;
+    color: rgb(80, 80, 70);
+}
+
+#level h1:hover {
+    font-size: 5vw;
+    color: rgb(238, 212, 129);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    border: 3px solid;
+    border-radius: 17%;
+    margin: 45px;
+    color: rgb(238, 212, 129);
+    transition: 0.3s;
+    box-shadow: 3px 4px rgb(133, 138, 107);
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(80, 80, 70);
+    transition: 0.3s;
+    box-shadow: 3px 4px rgb(0, 0, 0);
+}
+
+#leveling button {
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+#leveling button:hover {
+    font-size: 162%;
+}
+
+#playBack button {
+    font-size: 235%;
+    position: relative;
+    margin: 10%;
+    left: 275px;
+}

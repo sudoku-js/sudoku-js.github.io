@@ -1,0 +1,32 @@
+#rules {
+    text-align: center;
+}
+
+#rules #hOverview {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#rules #hRules {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#rules li {
+    margin: 2px;
+    padding: 1px;
+    position: relative;
+    bottom: 30px;
+}
+
+#rules p {
+    position: relative;
+    bottom: 30px;
+}
+
+#backRules button {
+    position: fixed;
+    left: -10px;
+    top: -20px;
+    font-size: 125%;
+}
