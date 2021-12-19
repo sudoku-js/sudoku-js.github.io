@@ -68,12 +68,22 @@ export function sudoku(index, allNums) {
                 }
             }
 
+            if (luckyNumbers.length < 10) {
+                ev.target.disabled = true;
+                ev.target.textContent = 'Try next time'
+                ev.target.style.backgroundColor = 'rgb(128, 128, 128)';
+            }
             let isFound = true;
+            let countIndex = 0;
             while (isFound) {
                 const index = luckyNumbers[Math.ceil(Math.random() * 80)];
                 if (gridValues[index] != undefined) {
                     gridValues[index].value = combination[index];
                     isFound = false;
+                }
+                countIndex++
+                if (countIndex > 10) {
+                    return;
                 }
             }
         }
@@ -87,7 +97,7 @@ export function sudoku(index, allNums) {
         } else if (ev.target.textContent == 'Hint 1') {
             ev.target.textContent = 'Hint 0';
             ev.target.disabled = true;
-            ev.target.style.backgroundColor = 'rgb(128, 128, 128)'
+            ev.target.style.backgroundColor = 'rgb(128, 128, 128)';
             showHint();
         }
     }
