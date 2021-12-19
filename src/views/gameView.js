@@ -14,7 +14,7 @@ export function showGame(ctx) {
         </div>
 
         <div id="leveling">
-            <button data-set="false" id="Easy" @click=${onCheck}>What is this sudoku game</button>
+            <button data-set="false" id="Easy" @click=${onCheck}>Sudoku? Is that a town?</button>
             <button data-set="false" id="Normal" @click=${onCheck}>I play from time to time</button>
             <button data-set="false" id="Hard" @click=${onCheck}>Sudoku is my middle name</button>
         </div>
