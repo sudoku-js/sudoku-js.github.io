@@ -18,7 +18,7 @@ body {
     color: rgb(80, 80, 70);
 }
 
-#welcome:hover {
+#welcome #homeHeader:hover {
     cursor: default;
     font-size: 10vw;
     color: rgb(238, 212, 129);
