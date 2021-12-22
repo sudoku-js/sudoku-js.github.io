@@ -32,11 +32,13 @@ button:hover {
 
 #leveling button {
     margin-top: 200px;
-    margin-left: 70px;
+    margin-left: 80px;
+    font-family: 'Maiandra GD', 'Century Gothic', sans-serif;
 }
 
 #leveling button:hover {
     font-size: 162%;
+    font-family: 'Maiandra GD', 'Century Gothic', sans-serif;
 }
 
 #playBack button {
@@ -44,6 +46,7 @@ button:hover {
     position: relative;
     margin: 10%;
     left: 275px;
+    font-family: 'Maiandra GD', 'Century Gothic', sans-serif;
 }
 
 @media screen and (max-width: 686px) {

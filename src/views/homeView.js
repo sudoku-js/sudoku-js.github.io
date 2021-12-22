@@ -5,7 +5,7 @@ export function showHome() {
     const template = html `
     <section id="home">
         <div id="welcome">
-            <header id="homeHeader">Welcome</header>
+            <header id="homeHeader">Sudoku</header>
         </div>
         <div id="navigation">
             <nav>

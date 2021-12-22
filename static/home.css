@@ -3,7 +3,7 @@ body {
     background-size: cover;
     max-width: 1300px;
     margin: 0 auto;
-    font-family: 'Maiandra GD', sans-serif;
+    font-family: 'Maiandra GD', 'Century Gothic', sans-serif;
 }
 
 
@@ -41,19 +41,19 @@ body {
 .nav {
     text-decoration: none;
     font-size: 5vw;
-    border: 3px solid;
+    /* border: 3px solid; */
     border-radius: 17%;
     margin: 45px;
     width: auto;
     color: rgb(238, 212, 129);
     transition: 0.3s;
-    box-shadow: 3px 4px rgb(133, 138, 107);
+    /* box-shadow: 3px 4px rgb(133, 138, 107); */
 }
 
 .nav:hover {
     color: rgb(80, 80, 70);
     transition: 0.3s;
-    box-shadow: 3px 4px rgb(0, 0, 0);
+    /* box-shadow: 3px 4px rgb(0, 0, 0); */
 }
 
 

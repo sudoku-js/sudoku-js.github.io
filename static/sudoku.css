@@ -131,7 +131,8 @@
     height: 30px;
     margin: -1px;
     text-align: center;
-    font-size: 100%;
+    font-family: 'Maiandra GD', 'Century Gothic', sans-serif;
+    font-size: 120%;
 }
 
 .row {
