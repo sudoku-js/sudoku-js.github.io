@@ -1,6 +1,6 @@
-import { main } from '../app.js'
+import { main } from '../app.js';
 import { onBack } from '../controllers/back.js';
-import { html, render } from '../lib.js'
+import { html, render } from '../lib.js';
 
 export function showRules() {
     const template = html `
@@ -24,7 +24,7 @@ export function showRules() {
                 Only the numbers from 1 through to 9 can be used
             </li>
             <li>
-                Each 3×3 box can only contain each number from 1 to 9 once
+                Each 3x3 box can only contain each number from 1 to 9 once
             </li>
             <li>
                 Each vertical column can only contain each number from 1 to 9 once

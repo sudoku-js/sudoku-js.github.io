@@ -1,9 +1,9 @@
-import { html, render } from '../lib.js'
+import { html, render } from '../lib.js';
 
 export const units = {
     hours: '0',
     minutes: '0',
-    seconds: '0'
+    seconds: '0',
 }
 
 export function stopwatch() {

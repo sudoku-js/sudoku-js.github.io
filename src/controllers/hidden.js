@@ -1,5 +1,5 @@
 export function hideEasy() {
-    const random = Math.ceil(Math.random() * 3)
+    const random = Math.ceil(Math.random() * 3);
 
     if (random == 3) {
         const hidden = [0, 1, 2, 4, 7, 9, 10, 13, 15, 16, 18, 20, 22, 26, 27, 31, 33, 35, 38, 39, 41, 42, 46, 49, 50, 52, 56, 58, 60, 62, 63, 64, 66, 68, 71, 73, 75, 77, 78];
@@ -18,7 +18,7 @@ export function hideEasy() {
 }
 
 export function hideNormal() {
-    const random = Math.ceil(Math.random() * 3)
+    const random = Math.ceil(Math.random() * 3);
 
     if (random == 3) {
         const hidden = [0, 1, 2, 4, 6, 7, 9, 10, 11, 13, 15, 16, 18, 20, 22, 24, 26, 27, 31, 33, 35, 36, 38, 39, 41, 42, 46, 49, 50, 52, 54, 56, 58, 60, 62, 63, 64, 66, 68, 69, 71, 73, 75, 77, 78];
@@ -37,7 +37,7 @@ export function hideNormal() {
 }
 
 export function hideHard() {
-    const random = Math.ceil(Math.random() * 3)
+    const random = Math.ceil(Math.random() * 3);
 
     if (random == 3) {
         const hidden = [0, 1, 2, 4, 6, 7, 9, 10, 11, 13, 15, 16, 18, 20, 22, 24, 26, 27, 29, 31, 33, 35, 36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 53, 54, 56, 57, 58, 60, 62, 63, 64, 66, 68, 69, 71, 73, 74, 75, 77, 78];

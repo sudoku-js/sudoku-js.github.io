@@ -1,5 +1,5 @@
-import { main } from '../app.js'
-import { html, render } from '../lib.js'
+import { main } from '../app.js';
+import { html, render } from '../lib.js';
 
 export function showHome() {
     const template = html `

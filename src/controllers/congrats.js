@@ -1,4 +1,4 @@
-import { page } from '../lib.js'
+import { page } from '../lib.js';
 
 export function onNewGame() {
     page.redirect('/game');

@@ -15,7 +15,6 @@ export function createCombination() {
         matrixNine[i] = [];
     }
 
-
     for (let i = 0; i < matrixOne.length; i++) {
         for (let x = 0; x < 3; x++) {
             const random = (Math.random() * 10).toFixed();
@@ -28,9 +27,11 @@ export function createCombination() {
             }
         }
     }
+
     matrixFour[2] = matrixOne[0];
     matrixFour[0] = matrixOne[1];
     matrixFour[1] = matrixOne[2];
+
     matrixSeven[2] = matrixFour[0];
     matrixSeven[0] = matrixFour[1];
     matrixSeven[1] = matrixFour[2];
@@ -48,10 +49,10 @@ export function createCombination() {
     matrixFive[2] = matrixTwo[0];
     matrixFive[0] = matrixTwo[1];
     matrixFive[1] = matrixTwo[2];
+
     matrixEight[2] = matrixFive[0];
     matrixEight[0] = matrixFive[1];
     matrixEight[1] = matrixFive[2];
-
 
     matrixThree[0][0] = matrixTwo[0][1];
     matrixThree[1][0] = matrixTwo[1][1];
@@ -66,6 +67,7 @@ export function createCombination() {
     matrixSix[2] = matrixThree[0];
     matrixSix[0] = matrixThree[1];
     matrixSix[1] = matrixThree[2];
+
     matrixNine[2] = matrixSix[0];
     matrixNine[0] = matrixSix[1];
     matrixNine[1] = matrixSix[2];
@@ -82,4 +84,5 @@ export function createCombination() {
     allNumbers.push(matrixNine.join());
 
     return allNumbers.join();
+
 }

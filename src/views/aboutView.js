@@ -1,6 +1,6 @@
-import { main } from '../app.js'
+import { main } from '../app.js';
 import { onBack } from '../controllers/back.js';
-import { html, render } from '../lib.js'
+import { html, render } from '../lib.js';
 
 export function showAbout() {
     const template = html `

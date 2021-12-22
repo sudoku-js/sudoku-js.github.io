@@ -1,8 +1,8 @@
-import { main } from '../app.js'
+import { main } from '../app.js';
 import { onBack } from '../controllers/back.js';
 import { onCheck } from '../controllers/leveling.js';
 import { onPlay } from '../controllers/play.js';
-import { html, render } from '../lib.js'
+import { html, render } from '../lib.js';
 
 export function showGame(ctx) {
     const template = html `
@@ -29,6 +29,6 @@ export function showGame(ctx) {
     render(template, main);
 
     const playBtn = document.getElementById('playBtn');
-    playBtn.style.backgroundColor = 'rgb(184, 183, 178)'
+    playBtn.style.backgroundColor = 'rgb(184, 183, 178)';
 
 }

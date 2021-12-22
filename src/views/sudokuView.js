@@ -1,5 +1,5 @@
-import { main } from '../app.js'
-import { html, render } from '../lib.js'
+import { main } from '../app.js';
+import { html, render } from '../lib.js';
 import { sudoku } from "../controllers/sudoku.js";
 import { onLeave } from '../controllers/leave.js';
 import { createCombination } from "../controllers/engine.js";

@@ -14,6 +14,6 @@ export function onCheck(ev) {
     const playBtn = document.getElementById('playBtn');
     playBtn.disabled = false;
     playBtn.dataset.level = ev.target.id;
-    playBtn.style.backgroundColor = ''
+    playBtn.style.backgroundColor = '';
 
 }
